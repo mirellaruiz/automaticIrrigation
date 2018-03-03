@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		484306361F7D073A00CAA8BC /* TankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484306351F7D073A00CAA8BC /* TankModel.swift */; };
+		484306381F7D0AB200CAA8BC /* TajectoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484306371F7D0AB200CAA8BC /* TajectoryModel.swift */; };
 		73713AD71F7A88430093A70A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73713AD61F7A88430093A70A /* AppDelegate.swift */; };
 		73713AD91F7A88430093A70A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73713AD81F7A88430093A70A /* ViewController.swift */; };
 		73713ADC1F7A88430093A70A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73713ADA1F7A88430093A70A /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		73713AE11F7A88430093A70A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73713ADF1F7A88430093A70A /* LaunchScreen.storyboard */; };
 		73713AEC1F7A88430093A70A /* Riego_Automa_ticoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73713AEB1F7A88430093A70A /* Riego_Automa_ticoTests.swift */; };
 		73713AF71F7A88430093A70A /* Riego_Automa_ticoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73713AF61F7A88430093A70A /* Riego_Automa_ticoUITests.swift */; };
+		73713B051F7A890D0093A70A /* ParametricFuncView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73713B041F7A890D0093A70A /* ParametricFuncView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		484306351F7D073A00CAA8BC /* TankModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TankModel.swift; sourceTree = "<group>"; };
+		484306371F7D0AB200CAA8BC /* TajectoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TajectoryModel.swift; sourceTree = "<group>"; };
 		73713AD31F7A88430093A70A /* Riego Automático.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Riego Automático.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73713AD61F7A88430093A70A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73713AD81F7A88430093A70A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		73713AF21F7A88430093A70A /* Riego AutomáticoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Riego AutomáticoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73713AF61F7A88430093A70A /* Riego_Automa_ticoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riego_Automa_ticoUITests.swift; sourceTree = "<group>"; };
 		73713AF81F7A88430093A70A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73713B041F7A890D0093A70A /* ParametricFuncView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParametricFuncView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				73713ADD1F7A88430093A70A /* Assets.xcassets */,
 				73713ADF1F7A88430093A70A /* LaunchScreen.storyboard */,
 				73713AE21F7A88430093A70A /* Info.plist */,
+				73713B041F7A890D0093A70A /* ParametricFuncView.swift */,
+				484306351F7D073A00CAA8BC /* TankModel.swift */,
+				484306371F7D0AB200CAA8BC /* TajectoryModel.swift */,
 			);
 			path = "Riego Automático";
 			sourceTree = "<group>";
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				484306381F7D0AB200CAA8BC /* TajectoryModel.swift in Sources */,
 				73713AD91F7A88430093A70A /* ViewController.swift in Sources */,
+				73713B051F7A890D0093A70A /* ParametricFuncView.swift in Sources */,
+				484306361F7D073A00CAA8BC /* TankModel.swift in Sources */,
 				73713AD71F7A88430093A70A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +519,7 @@
 				73713AFD1F7A88430093A70A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73713AFE1F7A88430093A70A /* Build configuration list for PBXNativeTarget "Riego AutomáticoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				73713B001F7A88430093A70A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73713B011F7A88430093A70A /* Build configuration list for PBXNativeTarget "Riego AutomáticoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				73713B031F7A88430093A70A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
